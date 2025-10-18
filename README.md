@@ -1,7 +1,11 @@
-# BIO-Info
+# PhD Studies - Subject: Artificial Intelligence
+## Topic - Graph Neural Networks for Estrogenic Receptor Activity Prediction
+
+## Overview
+
+This repository contains the code and experimental results for a project focused on applying **Graph Neural Networks (GNNs)** to the problem of **Estrogenic Receptor (ESR) activity prediction**. The goal is to classify novel small molecules as either active or inactive against Estrogenic Receptors, a critical task in toxicology and pharmacology.
+
 ### Repository Contents
-  * **`attic/`**
-     * Contains work related to overfitting task and multiclassification
   * **`data_preprocessing/`**
     * **`data/`**
         * Contains **TFRecord** files of the processed dataset, split into **train**, **validation**, and **test sets**
@@ -20,5 +24,6 @@
      *  **`models/`** - definition of every model utilized (gcn, gsage, gat, gin)
      *  **`spektral_data/`** - contains scripts for converting loaded data into spektral dataset, needed for GNN models
      *  **`optuna/`** - results of optuna hyperparam optimization for every model (cvs files for every set of hyperparam values used in trial, for every model), and final txt file of the best set of hyperparam values
-     *  **`attic/`** - files related to multiclassification, XAI, some initial results of multiclassification, hyperparam optimization for multiclassification models etc.
+     *  **`results_visualization/`** - files related to results obtained from every process (training, eval, hyperparam optimization etc.) in this work
+   
       
