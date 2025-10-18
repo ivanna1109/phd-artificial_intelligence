@@ -24,6 +24,6 @@ This repository contains the code and experimental results for a project focused
      *  **`models/`** - definition of every model utilized (gcn, gsage, gat, gin)
      *  **`spektral_data/`** - contains scripts for converting loaded data into spektral dataset, needed for GNN models
      *  **`optuna/`** - results of optuna hyperparam optimization for every model (cvs files for every set of hyperparam values used in trial, for every model), and final txt file of the best set of hyperparam values
-     *  **`results_visualization/`** - files related to results obtained from every process (training, eval, hyperparam optimization etc.) in this work
+  * **`results_visualization/`** - files related to results obtained from every process (training, eval, hyperparam optimization etc.) in this work
    
       
