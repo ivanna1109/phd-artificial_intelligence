@@ -1,0 +1,59 @@
+/var/spool/slurmd/job09571/slurm_script: line 18: module: command not found
+2025-08-22 11:53:27.661466: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[11:53:31] 
+
+****
+Pre-condition Violation
+no owner
+Violation occurred on line 146 in file /home/conda/feedstock_root/build_artifacts/rdkit-meta_1732947292231/work/Code/GraphMol/Atom.h
+Failed Expression: dp_mol
+----------
+Stacktrace:
+ 0# Invar::Invariant::toString[abi:cxx11]() const in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/../../../libRDKitRDGeneral.so.1
+ 1# Invar::operator<<(std::ostream&, Invar::Invariant const&) in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/../../../libRDKitRDGeneral.so.1
+ 2# RDKit::Atom::getDegree() const in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/../../../../libRDKitGraphMol.so.1
+ 3# 0x00007F4FBC50179A in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdchem.so
+ 4# boost::python::objects::function::call(_object*, _object*) const in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/../../../libboost_python311.so.1.86.0
+ 5# 0x00007F4FBC8E5449 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/../../../libboost_python311.so.1.86.0
+ 6# boost::python::detail::exception_handler::operator()(boost::function_n<void> const&) const in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/../../../libboost_python311.so.1.86.0
+ 7# 0x00007F4FBBCBFCC4 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdmolfiles.so
+ 8# 0x00007F4FBBCBFD14 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdmolfiles.so
+ 9# 0x00007F4FBBDD5A24 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdCIPLabeler.so
+10# 0x00007F4FBC54ADC4 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdchem.so
+11# 0x00007F4FBC4DC56D in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdchem.so
+12# 0x00007F4FBC4DC08D in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdchem.so
+13# 0x00007F4FBC4DBBAD in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdchem.so
+14# 0x00007F4FBC4DB6CD in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdchem.so
+15# 0x00007F4FBC4DB1ED in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/Chem/rdchem.so
+16# 0x00007F4FBC9A4A94 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/rdBase.so
+17# 0x00007F4FBC9A4AE4 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/rdBase.so
+18# 0x00007F4FBC9A4B34 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/rdBase.so
+19# 0x00007F4FBC9A4B84 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/rdBase.so
+20# boost::python::handle_exception_impl(boost::function_n<void>) in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/../../../libboost_python311.so.1.86.0
+21# 0x00007F4FBC8E29B3 in /home/ivanam/.conda/envs/bio_inf/lib/python3.11/site-packages/rdkit/../../../libboost_python311.so.1.86.0
+22# _PyObject_MakeTpCall in /home/ivanam/.conda/envs/bio_inf/bin/python
+23# _PyEval_EvalFrameDefault in /home/ivanam/.conda/envs/bio_inf/bin/python
+24# 0x0000558BE27F642D in /home/ivanam/.conda/envs/bio_inf/bin/python
+25# PyEval_EvalCode in /home/ivanam/.conda/envs/bio_inf/bin/python
+26# 0x0000558BE2814A1A in /home/ivanam/.conda/envs/bio_inf/bin/python
+27# 0x0000558BE2810593 in /home/ivanam/.conda/envs/bio_inf/bin/python
+28# 0x0000558BE2825930 in /home/ivanam/.conda/envs/bio_inf/bin/python
+29# _PyRun_SimpleFileObject in /home/ivanam/.conda/envs/bio_inf/bin/python
+30# _PyRun_AnyFileObject in /home/ivanam/.conda/envs/bio_inf/bin/python
+31# Py_RunMain in /home/ivanam/.conda/envs/bio_inf/bin/python
+32# Py_BytesMain in /home/ivanam/.conda/envs/bio_inf/bin/python
+33# 0x00007F4FFEF0D24A in /lib/x86_64-linux-gnu/libc.so.6
+34# __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+35# 0x0000558BE27E591D in /home/ivanam/.conda/envs/bio_inf/bin/python
+----------
+****
+
+Traceback (most recent call last):
+  File "/home/ivanam/BIO-Info/bio_info/training/multiclassification/gcn_train_multi.py", line 42, in <module>
+    X_train_graphs, y_train_one_hot = tf_to_s.convert_tf_dataset_to_spektral(train_ds)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivanam/BIO-Info/bio_info/training/multiclassification/spektral_data_multi/tf_to_spektral.py", line 28, in convert_tf_dataset_to_spektral
+    one_hot_label[3] = 1.0
+    ~~~~~~~~~~~~~^^^
+IndexError: index 3 is out of bounds for axis 0 with size 2

@@ -1,0 +1,9 @@
+Best trial:
+  Value: 0.88415
+  Params: 
+    hidden_units: 232
+    dense_units_0: 130
+    dense_units_1: 148
+    dropout_rate: 0.13038823898300694
+    learning_rate: 0.00035761421621592106
+    batch_size: 31

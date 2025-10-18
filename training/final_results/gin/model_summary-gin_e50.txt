@@ -1,0 +1,34 @@
+Model: "gin_model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ gin_conv (GINConv)          multiple                  3017      
+                                                                 
+ batch_normalization (Batch  multiple                  928       
+ Normalization)                                                  
+                                                                 
+ dropout (Dropout)           multiple                  0         
+                                                                 
+ gin_conv_1 (GINConv)        multiple                  54057     
+                                                                 
+ batch_normalization_1 (Bat  multiple                  928       
+ chNormalization)                                                
+                                                                 
+ global_max_pool (GlobalMax  multiple                  0         
+ Pool)                                                           
+                                                                 
+ flatten (Flatten)           multiple                  0         
+                                                                 
+ dropout_1 (Dropout)         multiple                  0         
+                                                                 
+ dense (Dense)               multiple                  30290     
+                                                                 
+ dense_1 (Dense)             multiple                  19388     
+                                                                 
+ dense_2 (Dense)             multiple                  298       
+                                                                 
+=================================================================
+Total params: 108906 (425.41 KB)
+Trainable params: 107978 (421.79 KB)
+Non-trainable params: 928 (3.62 KB)
+_________________________________________________________________
