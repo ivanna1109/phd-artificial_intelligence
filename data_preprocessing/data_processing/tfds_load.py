@@ -186,7 +186,7 @@ if __name__ == "__main__":
     COMMON_GLOBAL_FEATURES_LIST = [
         'monoisotopicMass', 'ac50',]
 
-    dataset_dir = 'data/tfrecords'
+    dataset_dir = '/home/ivana-milutinovic/Documents/Doktorske/Prva godina/Vestacka inteligencija/git_repo/phd-artificial_intelligence/data_preprocessing/data/tfrecords_augmented_new'
 
     train_ds, val_ds, test_ds = load_tf_datasets(
         output_directory=dataset_dir,
@@ -218,7 +218,7 @@ if __name__ == "__main__":
         element_details(train_ds.take(1), output_dir)
     
         ### Detalji Prvog Elementa Test Skupa
-        output_dir = 'data/output_molecules/test_example'
+        output_dir = '/home/ivana-milutinovic/Documents/Doktorske/Prva godina/Vestacka inteligencija/git_repo/phd-artificial_intelligence/data_preprocessing/data/output_data'
         print("\n--- Provera prvog elementa iz UČITANOG TEST SKUPA ---")
         element_details(test_ds.take(1), output_dir)
     else:

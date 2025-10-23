@@ -1,0 +1,55 @@
+--- Detalji molekula: '2hydroxybenzophenone15912' ---
+Naziv molekula (preferredName): 2hydroxybenzophenone15912
+Labela (hitc): 1.0
+ESR: milutinovic
+Broj atoma : 15
+Broj veza: 32
+Globalne karakteristike: [198.06808  50.     ]
+Shape node_features: (15, 12)
+Shape edge_features: (0, 3)
+
+Matrica susedsta (Sparse reprezentacija):
+Adjacency_indices:
+[[ 0  6]
+ [ 6  0]
+ [ 0  5]
+ [ 5  0]
+ [ 0  1]
+ [ 1  0]
+ [ 1  2]
+ [ 2  1]
+ [ 1 14]
+ [14  1]
+ [ 2  3]
+ [ 3  2]
+ [ 3  4]
+ [ 4  3]
+ [ 4  5]
+ [ 5  4]
+ [ 6  7]
+ [ 7  6]
+ [ 6  8]
+ [ 8  6]
+ [ 8  9]
+ [ 9  8]
+ [ 8 13]
+ [13  8]
+ [ 9 10]
+ [10  9]
+ [10 11]
+ [11 10]
+ [11 12]
+ [12 11]
+ [12 13]
+ [13 12]]
+Adjacency_values:
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1.]
+
+Matrica susedstva (Gusta reprezentacija - prvih 5x5 ako je veća):
+[[0. 1. 0. 0. 0.]
+ [1. 0. 1. 0. 0.]
+ [0. 1. 0. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [0. 0. 0. 1. 0.]]
+    ... (Prikazano samo prvih 5x5 od 15x15 matrice)

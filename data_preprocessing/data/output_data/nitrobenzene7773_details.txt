@@ -1,0 +1,40 @@
+--- Detalji molekula: 'nitrobenzene7773' ---
+Naziv molekula (preferredName): nitrobenzene7773
+Labela (hitc): 0.0
+ESR: milutinovic
+Broj atoma : 9
+Broj veza: 18
+Globalne karakteristike: [123.03203  50.     ]
+Shape node_features: (9, 12)
+Shape edge_features: (0, 3)
+
+Matrica susedsta (Sparse reprezentacija):
+Adjacency_indices:
+[[0 1]
+ [1 0]
+ [1 2]
+ [2 1]
+ [1 8]
+ [8 1]
+ [2 3]
+ [3 2]
+ [2 7]
+ [7 2]
+ [3 4]
+ [4 3]
+ [4 5]
+ [5 4]
+ [5 6]
+ [6 5]
+ [6 7]
+ [7 6]]
+Adjacency_values:
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+
+Matrica susedstva (Gusta reprezentacija - prvih 5x5 ako je veća):
+[[0. 1. 0. 0. 0.]
+ [1. 0. 1. 0. 0.]
+ [0. 1. 0. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [0. 0. 0. 1. 0.]]
+    ... (Prikazano samo prvih 5x5 od 9x9 matrice)
